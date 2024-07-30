@@ -278,7 +278,7 @@ h1 {
 .hero__content::after {
   content: url("./assets/desktop/image-hero-right.png");
   position: absolute;
-  top: 0;
+  top: 55px;
   right: 0;
   transform: translateX(calc(100% + 8.8rem));
 }
