@@ -59,6 +59,7 @@ h1 {
   font-size: 6.4rem;
   line-height: 1;
   font-weight: 900;
+  color: hsl(var(--clr-dark-blue));
 }
 
 /* UTILITY */
