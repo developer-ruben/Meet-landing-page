@@ -47,6 +47,8 @@ body {
   width: 100%;
   position: relative;
   overflow-x: hidden;
+
+  background-color: hsl(var(--clr-almost-white));
 }
 
 p {
@@ -262,6 +264,7 @@ h1 {
   text-align: center;
   margin: 0 auto;
   position: relative;
+  padding-top: 4.7rem;
 }
 
 .hero__content::before {
@@ -358,6 +361,7 @@ h1 {
 
   .hero__content {
     max-width: 100%;
+    padding-top: 0;
   }
 
   .hero__text {
