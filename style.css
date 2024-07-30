@@ -58,7 +58,6 @@ p {
 h1 {
   font-size: 6.4rem;
   line-height: 1;
-  margin-bottom: 3.4rem;
   font-weight: 900;
 }
 
@@ -189,7 +188,7 @@ h1 {
 .section__title {
   font-size: 4rem;
   font-weight: 900;
-  color: hsl(var(--clr-dark-cyan));
+  color: hsl(var(--clr-dark-blue));
   line-height: 4.4rem;
   margin: 0 auto 3.2rem auto;
   max-width: 445px;
@@ -283,6 +282,11 @@ h1 {
   transform: translateX(calc(100% + 8.8rem));
 }
 
+.hero__title {
+  max-width: 445px;
+  margin: 0 auto 3.4rem auto;
+}
+
 .hero__text {
   color: hsl(var(--clr-gray));
   margin-bottom: 3.2rem;
@@ -325,7 +329,7 @@ h1 {
 }
 
 .attribution__link {
-  color: hsl(var(--clr-dark-cyan));
+  color: hsl(var(--clr-cyan));
   text-decoration: none;
 }
 
