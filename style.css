@@ -49,6 +49,7 @@ body {
   font-family: "Red Hat Display", sans-serif;
   position: relative;
   overflow-x: hidden;
+  background-color: hsl(var(--clr-white));
 }
 
 p {
